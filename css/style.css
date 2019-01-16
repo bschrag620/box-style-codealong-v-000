@@ -222,11 +222,11 @@ header {
   text-align: center;
 }
 
-#navbar .nav {
+#navbar nav {
   border-left: 1px solid #ccc;
 }
 
-#navbar .nav a {
+#navbar nav a {
   display: inline-block;
   width: 16.6667%;
   margin: 0;
@@ -239,12 +239,12 @@ header {
   font-size: 1em "Trebuchet MS", Arial, sans-serif;
 }
 
-#navbar .nav a.selected {
+#navbar nav a.selected {
   background: #333;
   color: white;
 }
 
-#navbar .nav a:hover {
+#navbar nav a:hover {
   color: white;
   background: rgb(0, 0, 0); /* Old browsers */
 background: -moz-linear-gradient(
